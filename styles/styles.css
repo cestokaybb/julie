@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #004105;
+    overflow: hidden;
+    user-select: none;
+}
+
+#border-1 {
+    position: absolute;
+    left:0%;
+    top:120%;
+    transform: translate(-0%, -100%);
+
+    width: 1000px;
+    height: 200px;
+    transition: 1.0s ease all;
+
+}
+#border-2 {
+    position: absolute;
+    right: 0%;
+    top: -20%;
+    
+    transform: translate(-0%, -0%);
+    transform: rotate(180deg);
+    width: 1000px;
+    height: 200px;
+    transition: 1.0s ease all;
+}
+
+#petale1 {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 500px;
+    height: auto;
+    transform: translate(-50%, -35%);
+    transition: 1.0s all ease;
+}
+
+#petale2 {
+    opacity: 0;
+    position: absolute;
+    left:53%;
+    top: 48%;
+    transform: translate(-60%, -50%);
+
+    width: 500px;
+    height: auto;
+    transition: 1.0s all ease;
+}
+
+#petale3 {
+    opacity: 0;
+    position: absolute;
+    left:53%;
+    top: 47%;
+    transform: translate(-60%, -50%);
+
+    width: 500px;
+    height: auto; 
+    transition: 1.0s all ease;
+}
+
+#petale4 {
+    opacity: 0;
+    position: absolute;
+    left:53%;
+    top: 47%;
+    transform: translate(-60%, -50%);
+
+    width: 500px;
+    height: auto; 
+    transition: 1.0s all ease;
+}
+
+#petale5 {
+    opacity: 0;
+    position: absolute;
+    left:53%;
+    top: 47%;
+    transform: translate(-60%, -50%);
+
+    width: 500px;
+    height: auto;
+    transition: 1.0s all ease;
+}
+
+#centre {
+    position: absolute;
+    left:52%;
+    top: 48%;
+    transform: translate(-60%, -50%);
+
+    width: 200px;
+    height: auto;
+}
+
+#etoile-1 {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left:10%;
+    top:15%;
+    transform: translate(-30%, -30%);
+    transform: rotate(0deg);
+    transition: left 1s ease;
+}
+
+#etoile-2 {
+    
+    opacity: 0;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    right:10%;
+    bottom:20%;
+    transform: translate(-30%, -30%);
+    transform: rotate(0deg);
+    transition: right 1s ease;
+}
+
+#letter {
+    position: absolute;
+    left:50%;
+    top:150%;
+    transform: translate(-50%, -20%);
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: white;
+    font-size: 1.5rem;
+    height: 610px;
+    width: 700px;
+
+    padding: 50px;
+    
+
+    transition: all 2.7s ease-in-out;
+    cursor: pointer;
+    box-shadow: 27px 21px 0px 10px #00180b;
+}
+
+
+
+#upper-message {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 500;
+    color: white;
+    font-size: 3rem;
+    margin: 20px;
+}
+
