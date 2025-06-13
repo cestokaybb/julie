@@ -64,8 +64,6 @@ display_letter = () => {
     center.style.width = "0px"
 
     letter.style.top = "27%"
-    letter.style.width = "700px"
-    letter.style.height = "610px"
 
     border1.style.top = "140%"
     border2.style.top = "-30%"
