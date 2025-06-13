@@ -67,11 +67,13 @@ display_letter = () => {
     letter.style.width = "700px"
     letter.style.height = "610px"
 
-    border1.style.top = "110%"
-    border2.style.top = "-10%"
+    border1.style.top = "140%"
+    border2.style.top = "-30%"
     
     star1.style.left = "0%"
     star2.style.right = "0%"
+
+    upperMessage.style.fontSize = "3rem"
 }
 
 document.addEventListener("click", () => {
