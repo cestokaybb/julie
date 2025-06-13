@@ -93,6 +93,9 @@ display_letter = () => {
     star1.style.left = "0%"
     star2.style.right = "0%"
 
+    star1.style.filter = "blur(5px)"
+    star2.style.filter = "blur(5px)"
+
     upperMessage.style.fontSize = "3rem"
 }
 
