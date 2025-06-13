@@ -21,6 +21,28 @@ var upperMessage = document.getElementById("upper-message")
 var upper_message_list = ["elle m'aime..", "un peu..", "beaucoup?", "passionnément??", "A LA FOLIE!!"]
 var rem_size = 3
 
+const cursor = document.getElementById("custom-cursor");
+
+var border_size = [1000, 200] // x, y
+
+function increase_border_size() {
+    // Ensure border_size is an array with at least two elements
+    border_size[1] = border_size[1] * ((border_size[0] + 50) / border_size[0]);
+
+    border_size[0] += 50;
+
+    // Set the width and height of border1 and border2
+    border1.style.width = border_size[0] + 'px';
+    border2.style.width = border_size[0] + 'px';
+    border1.style.height = border_size[1] + 'px';
+    border2.style.height = border_size[1] + 'px';
+}
+
+
+document.addEventListener("mousemove", (e) => {
+  cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     
     // On affiche les bordures
@@ -79,6 +101,7 @@ document.addEventListener("click", () => {
     upperMessage.innerHTML = upper_message_list[petale_index]
     upperMessage.style.fontSize = `${rem_size}rem`
     petale_index++;
+    increase_border_size()
     rem_size += 0.4
     if (petale_index >= 5) {
         display_letter()
