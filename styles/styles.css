@@ -144,6 +144,14 @@ body {
 }
 
 
+@media (max-height:1300px) {
+    #letter {
+        font-size: 1.2rem;
+        height: 500px;
+    }
+}
+
+
 
 #upper-message {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
